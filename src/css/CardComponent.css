@@ -1,0 +1,96 @@
+.card-component {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 250px;
+  height: 350px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.card-image {
+  position: absolute;
+  display: flex;
+  width: 240px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: blue;
+}
+
+.city-day-info {
+  display: flex;
+  justify-content: baseline;
+  align-self: center;
+}
+
+.city {
+  display: flex;
+  margin-right: 120px;
+}
+
+.days {
+  display: flex;
+}
+
+.desc {
+  position: absolute;
+  top: 180px;
+  margin-right: 100px;
+}
+
+.rupees {
+  position: absolute;
+  top: 200px;
+  margin-right: 140px;
+  color: red;
+}
+
+.all-icons {
+  position: absolute;
+  top: 250px;
+}
+
+.three-bed {
+  margin-left: 2px;
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+.icon-bath {
+  margin-left: 10px;
+}
+
+.three-bath {
+  border-right: 1px solid black;
+  padding-right: 10px;
+  margin-left: 2px;
+}
+
+.icon-sq-yard {
+  margin-left: 10px;
+}
+
+.info-icon-cont {
+  position: absolute;
+  top: 280px;
+  margin-right: 200px;
+  border: 1px solid #1976d2;
+  padding: 3px;
+  color: #1976d2;
+}
+
+.card-btn {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  top: 280px;
+  border: 1px solid black;
+  padding-right: 55px;
+  padding-left: 55px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 30px;
+  background-color: #1976d2;
+  color: #fff;
+  border: 0;
+}

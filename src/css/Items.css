@@ -1,0 +1,12 @@
+.menu-item {
+  padding: 0px 40px;
+  user-select: none;
+  cursor: pointer;
+  border: none;
+}
+
+
+.scroll-menu-arrow {
+  padding: 40px;
+  cursor: pointer;
+}

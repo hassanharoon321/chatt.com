@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.backImage {
+  width: 100%;
+  height: 100%;
+}
+
+/* jo bh child add karoo to position absolute dena */
