@@ -6,7 +6,16 @@
 
 .backImage {
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+@media screen and (max-width:991px){
+  .backImage {
+    width: 100%;
+    height: 100vh;
+  }
 }
 
 /* jo bh child add karoo to position absolute dena */

@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  /* font-family: Roboto;  */
 }
 
 .nav {
@@ -90,8 +89,5 @@
 .sign-in{
   margin-right: 10px;
 }
-
-
-
 
 /* nav 3 end */

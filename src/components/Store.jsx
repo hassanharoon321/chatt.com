@@ -4,9 +4,9 @@ import play from "../images/playstore-01.jpg";
 
 function Store() {
   return (
-    <div>
-      <p className="compare">Search Compare and get</p>
-      <img src={play} className="store-img" width="100px"/>
+    <div className="play-store">
+        <p className="compare">Search Compare and get</p>
+        <img src={play} className="store-img" width="120px"/>
     </div>
   );
 }

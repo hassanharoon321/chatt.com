@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Background />
-      <ItemsNav/>
+      <ItemsNav />
       <Items />
     </div>
   );

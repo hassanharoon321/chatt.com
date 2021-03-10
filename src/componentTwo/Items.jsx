@@ -29,10 +29,10 @@ const MenuItem = ({ text, selected }) => {
 // All items component
 // Important! add unique key
 export const Menu = (list, selected) =>
-  list.map((el) => {
+  list.map((el,key) => {
     const { name } = el;
 
-    return <MenuItem text={name} key={name} selected={selected} />;
+    return <MenuItem text={name} key={key} selected={selected} />;
   });
 
 const Arrow = ({ text, className }) => {

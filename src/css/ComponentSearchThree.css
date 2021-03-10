@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .second-search {
   position: absolute;
   top: 380px;
@@ -50,15 +54,17 @@ button {
   color: #fff;
 }
 
-.compare {
+.play-store {
   position: absolute;
-  top: 230px;
-  left: 100px;
-  color: #fff;
+  top: 220px;
+  left: 150px;
+  display: flex;
+  flex-direction: reverse;
+  flex-wrap: nowrap;
 }
 
-.store-img {
-  position: absolute;
-  top: 230px;
-  border-radius: 5px;
+.compare {
+  display: flex;
+  color: #fff;
+  margin-right: 10px;
 }
