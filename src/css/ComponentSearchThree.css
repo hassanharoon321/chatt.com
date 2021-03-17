@@ -68,3 +68,14 @@ button {
   color: #fff;
   margin-right: 10px;
 }
+
+@media screen and (min-height:1080px){
+  .play-store {
+    top: 630px;
+  }
+} 
+
+
+
+
+
